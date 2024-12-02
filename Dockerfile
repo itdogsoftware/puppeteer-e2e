@@ -3,7 +3,7 @@ FROM debian:bullseye
 LABEL authors = "Roy To <roy.to@itdogsoftware.co>"
 # Add nodejs repo
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-RUN source ~/.bashrc
+RUN . ~/.bashrc
 RUN nvm install 16
 
 # Install library & necessary service
