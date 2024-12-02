@@ -1,4 +1,4 @@
-FROM bullseye
+FROM debian:bullseye
 
 LABEL authors = "Roy To <roy.to@itdogsoftware.co>"
 # Add nodejs repo
