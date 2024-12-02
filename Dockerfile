@@ -7,6 +7,6 @@ RUN apt-get update -y && apt-get install curl libnss3 procps libdbus-1-3 libatk1
 
 # Add nodejs repo
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-RUN . ~/.bashrc
-RUN nvm install 16
+RUN bash -c "source ~/.bashrc && nvm install 16"
+
 
