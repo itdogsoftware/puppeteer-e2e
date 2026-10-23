@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:trixie
 
 LABEL authors = "Roy To <roy.to@itdogsoftware.co>"
 
